@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>БЕБРИС — С ДНЁМ РОЖДЕНИЯ!!!</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:"Comic Sans MS","Trebuchet MS",cursive}
+body{
+  overflow-x:hidden;
+  background:
+    repeating-linear-gradient(135deg,#ff00a8 0 14px,#00eaff 14px 28px,#6aff00 28px 42px,#ffe600 42px 56px);
+  color:#12003b;
+}
+body:before{
+  content:"💩   💩   💩   💩   💩   💩   💩   💩";
+  position:fixed;inset:0;z-index:-1;opacity:.18;font-size:50px;line-height:130px;
+  transform:rotate(-8deg);word-spacing:40px;
+}
+header{
+  margin:16px auto 8px;max-width:1100px;padding:22px 16px 12px;
+  background:#001dff;border:9px ridge #ff2b00;box-shadow:12px 12px 0 #ff00c8;
+  text-align:center;position:relative;
+}
+h1{margin:0;color:#fff700;font-size:clamp(42px,8vw,88px);line-height:.85;
+ text-shadow:6px 6px #ff0033,-4px -4px #00ffea;transform:rotate(-2deg)}
+h1 span{display:block;color:#ff3333;font-size:.8em;text-shadow:5px 5px #00ffea,-3px -3px #fff}
+header .poop{position:absolute;font-size:48px;animation:float 3s ease-in-out infinite}
+.p1{left:12px;top:8px}.p2{right:12px;top:24px;animation-delay:1s}
+@keyframes float{50%{transform:translateY(-18px) rotate(12deg)}}
+nav{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin:12px auto;max-width:1100px}
+nav a{display:block;padding:10px 18px;border:5px outset #ff00ff;font-weight:900;font-size:20px;text-decoration:none;color:#000;background:#ffea00}
+nav a:nth-child(2){background:#00ff2a} nav a:nth-child(3){background:#ff5a00;color:#fff}
+nav a:nth-child(4){background:#00eaff} nav a:nth-child(5){background:#8d00ff;color:#fff}
+main{max-width:1100px;margin:auto;padding:8px 12px}
+.hero{
+  display:grid;grid-template-columns:1.25fr .75fr;gap:12px;align-items:stretch;
+}
+.collage{
+  background:#ff006a;border:9px groove #00ffea;padding:8px;
+  display:grid;grid-template-columns:1fr 1fr;gap:8px;transform:rotate(-.5deg)
+}
+.collage img{width:100%;height:280px;object-fit:cover;border:7px solid #fff700;display:block}
+.greeting{
+  background:#d9ff00;border:10px double #ff0033;padding:20px;
+  box-shadow:9px 9px 0 #001dff;transform:rotate(1.5deg)
+}
+.greeting h2{font-size:40px;margin:0 0 10px;color:#ff0033;text-shadow:3px 3px #00eaff}
+.greeting p{font-size:23px;line-height:1.15;margin:11px 0;font-weight:900}
+.greeting .big{font-size:30px;color:#001dff}
+.marquee{
+ margin:18px 0;background:#00c8ff;border:8px dotted #ff00a8;padding:8px;
+ overflow:hidden;font-size:30px;font-weight:900;color:#ff0033
+}
+.marquee div{white-space:nowrap;animation:scroll 12s linear infinite}
+@keyframes scroll{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+.fun{
+ background:#ffea00;border:8px dashed #001dff;padding:14px;text-align:center;
+ transform:rotate(-1deg)
+}
+.fun h2{font-size:38px;color:#ff006a;margin:5px}
+.fun p{font-size:22px;font-weight:bold}
+.poopfield{font-size:36px;letter-spacing:12px;animation:wiggle 2s infinite}
+@keyframes wiggle{50%{letter-spacing:24px}}
+.credits{
+ margin-top:20px;padding:18px;background:#ff1b00;border:12px ridge #00ffea;
+ display:grid;grid-template-columns:1fr 300px;gap:20px;align-items:center
+}
+.credits h2{font-size:48px;margin:0;color:#ffff00;text-shadow:4px 4px #001dff}
+.credits p{font-size:25px;font-weight:900;color:#fff}
+.credits img{width:100%;height:300px;object-fit:cover;border:8px solid #ffff00;transform:rotate(2deg)}
+.sticker{position:fixed;z-index:5;font-size:38px;pointer-events:none;animation:fly 8s linear infinite}
+.s1{left:2%;top:20%;animation-delay:0s}.s2{right:3%;top:35%;animation-delay:2s}
+.s3{left:5%;bottom:18%;animation-delay:4s}.s4{right:7%;bottom:8%;animation-delay:6s}
+@keyframes fly{0%{transform:translate(0,0) rotate(0)}25%{transform:translate(40px,-80px) rotate(90deg)}
+50%{transform:translate(-20px,-150px) rotate(180deg)}75%{transform:translate(70px,-50px) rotate(270deg)}
+100%{transform:translate(0,0) rotate(360deg)}}
+footer{text-align:center;padding:18px;font-size:18px;font-weight:900}
+@media(max-width:750px){
+ .hero,.credits{grid-template-columns:1fr}
+ .collage img{height:210px}
+ .greeting h2{font-size:32px}
+}
+</style>
+</head>
+<body>
+<div class="sticker s1">💩</div><div class="sticker s2">💩</div>
+<div class="sticker s3">💩</div><div class="sticker s4">💩</div>
+
+<header id="home">
+  <div class="poop p1">💩</div><div class="poop p2">💩</div>
+  <h1>С ДНЁМ РОЖДЕНИЯ,<span>БЕБРИС!!! 🎉</span></h1>
+  <div style="font-size:24px;color:#00ffea;font-weight:900">☀️ ЛЕТНИЙ ПРАЗДНИК КАТАСТРОФИЧЕСКОГО ДИЗАЙНА ☀️</div>
+</header>
+
+<nav>
+  <a href="#home">Главная</a><a href="#photos">Фото</a><a href="#wish">Поздравления</a>
+  <a href="#fun">Ещё ужас</a><a href="#credits">Создатели</a>
+</nav>
+
+<main>
+<section class="hero" id="photos">
+  <div class="collage">
+    <!-- 4 УНИКАЛЬНЫЕ ФОТО: повторяющейся фотографии в коллаже нет -->
+    <img src="photo1.jpg" alt="Фото Бебрис и подруги">
+    <img src="photo2.jpg" alt="Фото компании">
+    <img src="photo3.jpg" alt="Фото Бебрис">
+    <img src="photo4.jpg" alt="Фото для финального блока">
+  </div>
+
+  <article class="greeting" id="wish">
+    <h2>С ДНЁМ РОЖДЕНИЯ, БЕБРИС!!! 💖</h2>
+    <p class="big">Ты — самая лучшая!!!</p>
+    <p>Желаем тебе кучу денег 💸, безумных приключений, вкусной еды и чтобы лето никогда не заканчивалось.</p>
+    <p>Пусть настроение будет как этот сайт: <span style="color:#ff0033">ярким, странным и совершенно непонятным!</span></p>
+    <p style="font-size:34px;color:#ff00a8">ОСТАВАЙСЯ СОБОЙ!!! 💩💩💩</p>
+  </article>
+</section>
+
+<div class="marquee"><div>💩 КРУТАЯ • КРАСИВАЯ • ВЕСЁЛАЯ • БЕБРИС FOREVER • 💩 С ДНЁМ РОЖДЕНИЯ • 💩</div></div>
+
+<section class="fun" id="fun">
+  <h2>ВАЖНЫЙ РАЗДЕЛ САЙТА</h2>
+  <div class="poopfield">💩 ✨ 💩 🐈 💩 ✨ 💩 🐬 💩 ✨ 💩</div>
+  <p>Пусть всё будет настолько хорошо, что этот ужасный сайт покажется шедевром веб-дизайна.</p>
+  <p style="font-size:32px;color:#001dff">БЕБРИС FOREVER 💗</p>
+</section>
+
+<section class="credits" id="credits">
+  <div>
+    <h2>САЙТ СДЕЛАЛИ:</h2>
+    <p>🔥 КРУТЫЕ ПЕРЦЫ 🔥</p>
+    <p>Мы вложили сюда максимум таланта, минимум вкуса и примерно 300% любви.</p>
+    <div style="font-size:48px">😎 💩 😎 💩 😎</div>
+  </div>
+  <img src="photo4.jpg" alt="Фото создателей">
+</section>
+</main>
+
+<footer>© 2026 БЕБРИС • официальный сайт, который никто не просил • 💩</footer>
+</body>
+</html>
