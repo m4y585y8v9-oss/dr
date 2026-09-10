@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Для тебя — с днём рождения ♡</title>
+<meta name="description" content="Нежная длинная поздравительная открытка с фото, видео, анимациями и сюрпризами.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fffaf7; --paper:#fffdfb; --ink:#4c4450; --muted:#8f818b;
+  --rose:#e8a7b8; --rose2:#f4ced8; --peach:#f4c9b7; --lav:#d9cbea; --sage:#cadfce; --cream:#f7e8cf;
+  --line:rgba(88,68,78,.12); --shadow:0 20px 60px rgba(102,76,89,.10); --max:1160px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;color:var(--ink);background:var(--bg);font-family:Manrope,system-ui,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:radial-gradient(circle at 8% 8%,rgba(232,167,184,.24),transparent 30%),radial-gradient(circle at 93% 18%,rgba(217,203,234,.25),transparent 28%),radial-gradient(circle at 44% 92%,rgba(202,223,206,.22),transparent 26%)}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;z-index:-1;background-image:radial-gradient(rgba(72,57,66,.035) .7px,transparent .7px);background-size:14px 14px}
+a{text-decoration:none;color:inherit}.wrap{width:min(var(--max),92vw);margin:auto}
+.serif{font-family:'Cormorant Garamond',serif}.eyebrow{letter-spacing:.15em;text-transform:uppercase;font-size:11px;font-weight:800;color:#a17c8b}
+.hero{min-height:100svh;display:grid;align-items:center;padding:28px 0 80px;position:relative}.hero-inner{display:grid;grid-template-columns:1.03fr .97fr;gap:42px;align-items:center}
+.hero-copy{padding:30px 0}.hero h1{font-size:clamp(56px,8vw,108px);line-height:.9;margin:16px 0 22px;font-weight:600;letter-spacing:-.035em}.hero h1 em{font-style:normal;color:#bf7188}.hero-lead{font-size:clamp(17px,2vw,21px);line-height:1.75;color:var(--muted);max-width:600px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 14px}.btn{border:0;border-radius:999px;padding:13px 18px;font:700 14px Manrope;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s;box-shadow:0 8px 24px rgba(106,80,92,.07)}.btn:hover{transform:translateY(-3px)}.btn.primary{background:#d98fa6;color:white}.btn.soft{background:#fff;border:1px solid var(--line);color:#665963}.btn.blush{background:#f5dfe5;color:#775364}.btn.lilac{background:#ebe3f4;color:#685c73}
+.hero-note{display:flex;align-items:center;gap:10px;color:#a18e96;font-size:12px}.hero-note .dot{width:8px;height:8px;border-radius:50%;background:#dfa0b3;box-shadow:0 0 0 8px rgba(223,160,179,.12)}
+.hero-art{position:relative;min-height:650px}.paper{position:absolute;background:var(--paper);border:1px solid rgba(99,74,87,.08);box-shadow:var(--shadow);border-radius:22px;overflow:hidden}.photo-card{width:64%;height:66%;right:4%;top:7%;transform:rotate(2.5deg);padding:14px}.photo-card .photo{height:100%;border-radius:16px;background:linear-gradient(145deg,#f0c2c9,#e7d4e8 42%,#d8eadb);position:relative;overflow:hidden}.photo-card .photo:before{content:"ТВОЁ ФОТО";position:absolute;inset:0;display:grid;place-items:center;color:white;font-size:12px;letter-spacing:.2em;font-weight:800;background:linear-gradient(180deg,rgba(91,63,76,.05),rgba(91,63,76,.18))}.photo-card .photo:after{content:"01";position:absolute;right:16px;bottom:12px;color:white;font:600 46px 'Cormorant Garamond';opacity:.8}
+.small-photo{width:45%;height:32%;left:4%;top:10%;transform:rotate(-7deg);padding:12px}.small-photo .mini-photo{height:100%;border-radius:14px;background:linear-gradient(145deg,#d8ebdf,#f3dfc8)}.small-photo .mini-photo:before{content:"фото";display:grid;place-items:center;height:100%;font:600 28px 'Cormorant Garamond';color:rgba(91,65,76,.45)}
+.polaroid{width:43%;height:31%;left:12%;bottom:9%;transform:rotate(-4deg);padding:12px 12px 40px}.polaroid .mini-photo{height:100%;border-radius:12px;background:linear-gradient(145deg,#efc7d6,#f7e5d6,#d8e7ef)}.polaroid span{position:absolute;left:16px;bottom:10px;font-family:'Cormorant Garamond';font-size:20px;color:#75636c}.sticker{position:absolute;display:grid;place-items:center;border-radius:50%;width:88px;height:88px;background:#f8ead0;box-shadow:0 12px 30px rgba(111,80,95,.12);font:700 31px 'Cormorant Garamond';color:#94767d;transform:rotate(8deg);right:1%;bottom:12%}.tape{position:absolute;width:92px;height:26px;background:rgba(243,213,187,.7);top:4%;left:32%;transform:rotate(-6deg);z-index:2}
+.section{padding:100px 0}.section.alt{background:rgba(255,255,255,.45)}.section-head{max-width:760px;margin-bottom:38px}.section-head.center{margin-inline:auto;text-align:center}.section-title{font-size:clamp(44px,6vw,70px);line-height:.95;margin:12px 0;font-weight:600}.section-sub{color:var(--muted);font-size:17px;line-height:1.7}.divider{width:70px;height:2px;background:#d9a0b0;margin:22px 0}.center .divider{margin-inline:auto}
+.gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;grid-template-rows:260px 260px;gap:16px}.frame{position:relative;background:var(--paper);padding:12px;border-radius:20px;box-shadow:var(--shadow);overflow:hidden}.frame .shot{height:100%;border-radius:13px;display:flex;align-items:flex-end;padding:20px;color:white;position:relative;overflow:hidden}.shot:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(58,39,48,.28))}.frame .label{position:relative;z-index:1;font-size:13px;font-weight:700;letter-spacing:.03em}.shot.one{background:linear-gradient(145deg,#efc7d2,#d8c7e7)}.shot.two{background:linear-gradient(145deg,#d6e7dc,#f1dbbd)}.shot.three{background:linear-gradient(145deg,#e7d7f2,#f2c9c2)}.shot.four{background:linear-gradient(145deg,#d3e7ed,#eed5dd)}.shot.five{background:linear-gradient(145deg,#f0d8b6,#e3c8d7)}.frame.big{grid-row:1/3}.frame.wide{grid-column:2/4}
+.caption{font-family:'Cormorant Garamond';font-size:30px;line-height:1.05;margin:20px 0 0;color:#685662}
+.letter{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:stretch}.note-card{background:#fbf4ee;border:1px solid var(--line);border-radius:28px;padding:34px;box-shadow:var(--shadow)}.note-card p{font-family:'Cormorant Garamond';font-size:30px;line-height:1.35;margin:0;color:#62535b}.note-card.small p{font-size:23px}.flower{font-size:56px;margin-bottom:15px}
+.timeline{position:relative;padding-left:22px}.timeline:before{content:"";position:absolute;left:8px;top:0;bottom:0;width:1px;background:rgba(119,93,106,.16)}.moment{position:relative;padding:0 0 30px 26px}.moment:before{content:"";position:absolute;left:-1px;top:5px;width:18px;height:18px;border-radius:50%;background:#f0c7d2;box-shadow:0 0 0 7px #fffaf7}.moment b{font-size:13px;color:#ad8190;letter-spacing:.08em;text-transform:uppercase}.moment h3{margin:7px 0 8px;font:600 32px 'Cormorant Garamond'}.moment p{margin:0;color:var(--muted);line-height:1.7}
+.interactive{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}.soft-box{background:rgba(255,255,255,.76);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:28px;padding:30px}.meter{height:12px;border-radius:999px;background:#f0e8e8;overflow:hidden;margin:22px 0}.meter > div{height:100%;width:0;background:linear-gradient(90deg,#e4a6b7,#d8cbed,#c6dfce);transition:width .8s}.big-number{text-align:center;font:600 96px/1 'Cormorant Garamond';color:#8d6a77}.fortune{min-height:150px;font:600 31px/1.15 'Cormorant Garamond';color:#7a6470;display:flex;align-items:center}.choices{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.video-card{display:grid;grid-template-columns:1fr 1fr;gap:16px}.video-placeholder{min-height:360px;border-radius:24px;position:relative;overflow:hidden;background:linear-gradient(145deg,#e8c3cf,#d9c9ec 55%,#d6e6d7);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow)}.video-placeholder .play{width:76px;height:76px;border-radius:50%;background:rgba(255,255,255,.78);display:grid;place-items:center;font-size:25px;color:#8d6d78;box-shadow:0 12px 40px rgba(79,56,68,.12);cursor:pointer}.video-placeholder span{position:absolute;bottom:18px;left:18px;background:rgba(255,255,255,.72);padding:9px 13px;border-radius:999px;font-size:12px;font-weight:800;color:#725b66}
+.final{padding:130px 0 80px;text-align:center}.final h2{font:600 clamp(56px,8vw,100px)/.9 'Cormorant Garamond';margin:16px auto;max-width:880px}.final p{max-width:720px;margin:0 auto;color:var(--muted);font-size:18px;line-height:1.8}.heart{font-size:42px;display:inline-block;animation:floatHeart 2.8s ease-in-out infinite}@keyframes floatHeart{50%{transform:translateY(-10px) rotate(4deg)}}
+footer{padding:20px 0 55px;text-align:center;color:#ac9da4;font-size:12px}
+.modal{position:fixed;inset:0;background:rgba(59,41,51,.28);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:20px;z-index:20}.modal.open{display:flex}.modal-box{max-width:650px;width:100%;background:#fffdfb;border:1px solid var(--line);box-shadow:0 24px 80px rgba(82,58,71,.18);border-radius:30px;padding:34px;position:relative;animation:pop .28s ease}.close{position:absolute;right:18px;top:18px;border:0;background:#f7edf0;color:#735e66;border-radius:50%;width:36px;height:36px;cursor:pointer}.modal h3{font:600 42px 'Cormorant Garamond';margin:8px 0 12px}.modal p{color:var(--muted);line-height:1.7}.modal-photo{height:260px;border-radius:20px;background:linear-gradient(145deg,#eec7d3,#d7c9ea,#d8e7d6);display:grid;place-items:center;font:600 34px 'Cormorant Garamond';color:rgba(91,64,75,.48);margin-bottom:18px}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,18px);padding:12px 16px;border-radius:999px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);opacity:0;pointer-events:none;z-index:30;transition:.25s;font-size:13px;font-weight:800;color:#675560}.toast.show{opacity:1;transform:translate(-50%,0)}
+.confetti{position:fixed;pointer-events:none;z-index:25;font-size:20px;animation:fall 2.8s linear forwards}@keyframes fall{0%{transform:translateY(-30px) rotate(0);opacity:1}100%{transform:translateY(105vh) rotate(600deg);opacity:0}}
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:900px){.hero-inner,.letter,.interactive,.video-card{grid-template-columns:1fr}.hero-art{min-height:560px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:240px 240px 240px}.frame.big{grid-row:auto}.frame.wide{grid-column:auto}}
+@media(max-width:560px){.wrap{width:91vw}.section{padding:72px 0}.hero{padding-top:15px}.hero-art{min-height:430px}.photo-card{width:68%;height:65%}.small-photo{height:29%}.polaroid{height:30%}.sticker{width:68px;height:68px;font-size:24px}.gallery{grid-template-columns:1fr;grid-template-rows:auto}.frame,.frame.big,.frame.wide{min-height:230px}.hero-actions .btn{width:100%}.note-card p{font-size:26px}.big-number{font-size:76px}.modal-box{padding:24px}.modal h3{font-size:35px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">необычная открытка · только для тебя</div>
+        <h1 class="serif">Сегодня хочется<br><em>сказать тебе</em><br>что-то очень тёплое.</h1>
+        <p class="hero-lead">С днём рождения, чудо. Пусть у тебя будет много моментов, которые хочется сохранять не только в телефоне, но и в памяти. Я сделал эту страничку длинной — чтобы хороших слов хватило надолго ♡</p>
+        <div class="hero-actions">
+          <button class="btn primary" id="startBtn">Открыть поздравление</button>
+          <button class="btn soft" id="surpriseBtn">Маленький сюрприз</button>
+        </div>
+        <div class="hero-note"><span class="dot"></span> листай спокойно — дальше будут фото-места, воспоминания, видео и ещё одна секретная штука</div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="tape"></div>
+        <div class="paper small-photo"><div class="mini-photo"></div></div>
+        <div class="paper photo-card"><div class="photo"></div></div>
+        <div class="paper polaroid"><div class="mini-photo"></div><span>это место для любимого кадра</span></div>
+        <div class="sticker">♡</div>
+      </div>
+    </div>
+  </header>
+</div>
+
+<section class="section alt" id="gallery">
+  <div class="wrap">
+    <div class="section-head center reveal"><div class="eyebrow">фотографии</div><h2 class="section-title serif">Здесь будут наши<br>самые тёплые кадры</h2><div class="divider"></div><p class="section-sub">Я оставил специальные мягкие шаблоны: просто замени фоны на свои фотографии — и вся страница сразу станет личной.</p></div>
+    <div class="gallery reveal">
+      <div class="frame big"><div class="shot one"><span class="label">Большое фото · сюда лучший кадр</span></div></div>
+      <div class="frame"><div class="shot two"><span class="label">момент № 01</span></div></div>
+      <div class="frame"><div class="shot three"><span class="label">момент № 02</span></div></div>
+      <div class="frame"><div class="shot four"><span class="label">момент № 03</span></div></div>
+      <div class="frame"><div class="shot five"><span class="label">момент № 04</span></div></div>
+    </div>
+    <div class="caption serif reveal">«Некоторые фотографии не нуждаются в фильтрах. Они сами про то, как хорошо было.»</div>
+  </div>
+</section>
+
+<section class="section" id="letter">
+  <div class="wrap">
+    <div class="section-head reveal"><div class="eyebrow">письмо</div><h2 class="section-title serif">Немного слов,<br>которые не хочется сокращать</h2><div class="divider"></div></div>
+    <div class="letter">
+      <div class="note-card reveal"><div class="flower">✿</div><p>Ты заслуживаешь дни, которые начинаются спокойно, люди рядом — честные и тёплые, а случайные радости — внезапные и большие.</p></div>
+      <div class="timeline reveal">
+        <div class="moment"><b>01 · сегодня</b><h3>Праздновать себя</h3><p>Можно не быть идеальной. Можно смеяться громко, заказывать любимое, фотографировать всё подряд и просто наслаждаться этим днём.</p></div>
+        <div class="moment"><b>02 · впереди</b><h3>Собирать ещё больше историй</h3><p>Пусть следующий год будет про поездки, спонтанные планы, уютные вечера, красивые рассветы и людей, рядом с которыми легко быть собой.</p></div>
+        <div class="moment"><b>03 · самое важное</b><h3>Не забывать, какая ты классная</h3><p>Когда вдруг забудешь — просто возвращайся сюда. Эта страница официально напоминает: ты очень-очень важный человек.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="section-head center reveal"><div class="eyebrow">маленькая игра</div><h2 class="section-title serif">Проверим, сколько<br>счастья сегодня помещается</h2><div class="divider"></div></div>
+    <div class="interactive">
+      <div class="soft-box reveal">
+        <div class="eyebrow">праздничный индикатор</div>
+        <div class="big-number" id="score">0</div>
+        <div class="meter"><div id="meterFill"></div></div>
+        <p style="color:var(--muted);line-height:1.7">Нажми несколько раз. Это абсолютно бессмысленно, поэтому работает идеально.</p>
+        <div class="choices"><button class="btn blush" id="plusBtn">Добавить счастье</button><button class="btn soft" id="luckyBtn">Спросить у судьбы</button></div>
+      </div>
+      <div class="soft-box reveal"><div class="eyebrow">сообщение от вселенной</div><div class="fortune" id="fortune">«У тебя сегодня подозрительно хороший вайб.»</div><div class="choices"><button class="btn lilac" id="fortuneBtn">Мне интересно</button><button class="btn soft" id="partyBtn">Запустить красоту</button></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="video">
+  <div class="wrap">
+    <div class="section-head reveal"><div class="eyebrow">видео-вставка</div><h2 class="section-title serif">А здесь — место<br>для вашего видео</h2><div class="divider"></div><p class="section-sub">Можно вставить короткое поздравление, смешной момент, видео с поездки или просто любимый ролик. Нажми на круг — откроется красивое окно для просмотра.</p></div>
+    <div class="video-card reveal">
+      <div class="video-placeholder"><button class="play" id="videoBtn" aria-label="Открыть видео">▶</button><span>VIDEO · 01</span></div>
+      <div class="note-card small"><div class="flower">☼</div><p>«Самые хорошие вещи часто выглядят как обычный день. Пока не понимаешь, что именно такие дни хочется прожить ещё раз.»</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="final">
+  <div class="wrap reveal">
+    <div class="heart">♡</div>
+    <div class="eyebrow">и последнее</div>
+    <h2 class="serif">Пусть тебе будет<br>очень-очень хорошо.</h2>
+    <p>Не идеально. Не как в кино. А по-настоящему хорошо: с людьми, которые обнимают, с мечтами, которые сбываются, с фотографиями, которые хочется пересматривать, и с кучей причин улыбаться без повода.</p>
+    <div class="hero-actions" style="justify-content:center;margin-top:30px"><button class="btn primary" id="finalParty">Послать тебе целое море конфетти</button><button class="btn soft" id="secretBtn">Секрет</button></div>
+  </div>
+</section>
+<footer><div class="wrap">сделано бережно · с любовью к красивым деталям · ♡</div></footer>
+
+<div class="modal" id="modal"><div class="modal-box"><button class="close" id="close">×</button><div class="modal-photo">здесь будет твоё фото / видео</div><h3 class="serif" id="modalTitle">Маленький сюрприз</h3><p id="modalText">Сегодня можно загадывать любые хорошие желания. Одно из них уже отправлено — пусть сработает красиво.</p><div class="choices"><button class="btn primary" id="modalAction">Ещё раз</button></div></div></div>
+<div class="toast" id="toast"></div>
+<script>
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+const modal=$('#modal'), toastEl=$('#toast');
+function toast(t){toastEl.textContent=t;toastEl.classList.add('show');clearTimeout(window.tt);window.tt=setTimeout(()=>toastEl.classList.remove('show'),2200)}
+function confetti(n=90){const chars=['✿','♡','✦','•','✧','❀'];for(let i=0;i<n;i++){const e=document.createElement('div');e.className='confetti';e.textContent=chars[Math.floor(Math.random()*chars.length)];e.style.left=Math.random()*100+'vw';e.style.top='-30px';e.style.animationDuration=(2.2+Math.random()*2.2)+'s';e.style.animationDelay=(Math.random()*.5)+'s';e.style.fontSize=(12+Math.random()*18)+'px';document.body.appendChild(e);setTimeout(()=>e.remove(),5000)}}
+function openModal(title,text){$('#modalTitle').textContent=title;$('#modalText').textContent=text;modal.classList.add('open')}
+$('#close').onclick=()=>modal.classList.remove('open');modal.onclick=e=>{if(e.target===modal)modal.classList.remove('open')};
+$('#startBtn').onclick=()=>document.querySelector('#gallery').scrollIntoView({behavior:'smooth'});
+$('#surpriseBtn').onclick=()=>openModal('Для самой именинницы ♡','Сегодня тебе официально разрешается принимать комплименты, есть самый вкусный кусочек торта и не отвечать на сообщения хотя бы пять минут. Это важный праздник.');
+let score=0;$('#plusBtn').onclick=()=>{score=Math.min(100,score+7+Math.floor(Math.random()*9));$('#score').textContent=score;$('#meterFill').style.width=score+'%';toast('ещё + немного счастья ♡')};
+const fortunes=['«Тебе очень идёт этот год.»','«Случайная хорошая новость уже где-то рядом.»','«Сегодня у Вселенной на тебя особые планы.»','«Тот самый момент для маленькой мечты — сейчас.»','«У тебя впереди много красивых историй.»'];
+$('#fortuneBtn').onclick=()=>{$('#fortune').textContent=fortunes[Math.floor(Math.random()*fortunes.length)];toast('вселенная ответила ✨')};
+$('#luckyBtn').onclick=()=>{score=Math.min(100,score+13);$('#score').textContent=score;$('#meterFill').style.width=score+'%';toast('судьба поставила лайк ♥')};
+$('#partyBtn').onclick=()=>{confetti(65);toast('добавил немного красоты')};
+$('#finalParty').onclick=()=>{confetti(180);toast('теперь здесь официально праздник ♡')};
+$('#videoBtn').onclick=()=>openModal('Место для вашего видео','Вставь сюда ссылку на видео или подключи локальный mp4 — окно уже готово под него.');
+$('#secretBtn').onclick=()=>{openModal('Секретная кнопка','Ты дошла до самого конца. Значит, заслужила отдельное: ты прекрасная. Всё. Никаких шуток. ♡');confetti(100)};
+$('#modalAction').onclick=()=>{confetti(45);toast('ещё немного тёплых эмоций')};
+const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});$$('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
